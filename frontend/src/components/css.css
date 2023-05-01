@@ -1,0 +1,130 @@
+ .previous-button {
+    /* ... existing styles ... */
+    font-size: 50px;
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    color: white;
+    justify-content: baseline;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 50px;
+    
+  }
+  
+  .next-button {
+    /* ... existing styles ... */
+    font-size: 50px;
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    color: white;
+    justify-content: center;
+
+  }
+
+  .output{
+    font-size: 14px;
+  }
+
+  .googleResize {
+    width: 25px;
+    height: 25px;
+  }
+
+  
+.movie-overview {
+  /* Set the maximum height to 60px or adjust as needed */
+  overflow: hidden; /* Hide the overflowing text */
+  text-overflow: ellipsis; /* Display ellipsis for overflow text */
+}
+.input-group.md-form.form-sm.form-1 input {
+  border: 2px solid #bdbdbd;
+}
+.input-error {
+  border: 1px solid red;
+}
+.display-name {
+  color: white;
+  padding-top: 8px;
+}
+.search-button {
+  background-color: grey;
+  font-size: 18px; 
+  height: 35px; 
+  padding-top: 3px;
+}
+.search-bar {
+  background-color: white;
+  font-size: 18px; 
+  height:37px; 
+  padding-top: 9px;
+}
+
+body {
+  background-color: #000000; /* Set the background color to black */
+  color: #ffffff; /* Set the text color to white */
+  font-family: Malayalam MN; /* Set the font */ 
+}
+.navbar-brand {
+  font-size: 30px;
+  font-family: 'Algerian';
+  color: white;
+  padding-top: 8px;
+}
+.movie-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border-bottom: 10px solid white
+
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-poster
+{
+  width: 60%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+.css-title {
+  position: absolute;
+  margin-top: 15px;
+  color: black;
+  font-size: 27px;
+  max-width: 60%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.css-overview {
+  position: absolute;
+  top: 15px;
+  margin-right: 30px;
+  margin-top: 1px;
+  margin-left: 60%;
+  color: black;
+  font-size: 16px;
+}
+.lay{
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
